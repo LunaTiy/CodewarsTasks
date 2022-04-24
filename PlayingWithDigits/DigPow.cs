@@ -31,7 +31,7 @@ namespace PlayingWithDigits
 			return digits;
 		}
 
-		public static long SumOfDigitsInPow(List<int> digits, int p)
+		public static long SumOfDigitsInPow(IEnumerable<int> digits, int p)
 		{
 			long sum = 0;
 
@@ -46,17 +46,10 @@ namespace PlayingWithDigits
 
 		public static long SearchMultiplier(int number, long sum)
 		{
-			int multiplier = 1;
+			if (sum % number == 0)
+				return sum / number;
 
-			while (true)
-			{
-				long resultMultiply = number * multiplier;
-
-				if (resultMultiply == sum) return multiplier;
-				else if (resultMultiply > sum) return -1;
-
-				multiplier++;
-			}
+			return -1;
 		}
 	}
 }
