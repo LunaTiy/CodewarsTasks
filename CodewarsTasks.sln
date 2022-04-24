@@ -11,9 +11,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DescendingOrder.Tests", "De
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FindTheParityOutlier", "FindTheParityOutlier", "{004D0284-4231-48F9-9C3D-F5818E150372}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindTheParityOutlier.Tests", "FindTheParityOutlier.Tests\FindTheParityOutlier.Tests.csproj", "{2B9D6E1C-BCA4-40B5-878C-254AEAD39F8D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FindTheParityOutlier.Tests", "FindTheParityOutlier.Tests\FindTheParityOutlier.Tests.csproj", "{2B9D6E1C-BCA4-40B5-878C-254AEAD39F8D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindTheParityOutlier", "FindTheParityOutlier\FindTheParityOutlier.csproj", "{DB5EA9E0-2889-4BD4-82AB-90C04D375D20}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FindTheParityOutlier", "FindTheParityOutlier\FindTheParityOutlier.csproj", "{DB5EA9E0-2889-4BD4-82AB-90C04D375D20}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PlayingWithDigits", "PlayingWithDigits", "{842389E7-DE2D-40CB-9FBE-8367B9E12155}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PlayingWithDigits.Tests", "PlayingWithDigits.Tests\PlayingWithDigits.Tests.csproj", "{831A814B-0A6C-414E-B4E9-D8032271E295}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PlayingWithDigits", "PlayingWithDigits\PlayingWithDigits.csproj", "{1A3FEA7D-6AE1-476F-9EBB-810660B50002}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{87CCD3D6-08D7-4B15-86F1-F08D8975BF41}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -37,6 +45,18 @@ Global
 		{DB5EA9E0-2889-4BD4-82AB-90C04D375D20}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DB5EA9E0-2889-4BD4-82AB-90C04D375D20}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DB5EA9E0-2889-4BD4-82AB-90C04D375D20}.Release|Any CPU.Build.0 = Release|Any CPU
+		{831A814B-0A6C-414E-B4E9-D8032271E295}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{831A814B-0A6C-414E-B4E9-D8032271E295}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{831A814B-0A6C-414E-B4E9-D8032271E295}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{831A814B-0A6C-414E-B4E9-D8032271E295}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A3FEA7D-6AE1-476F-9EBB-810660B50002}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A3FEA7D-6AE1-476F-9EBB-810660B50002}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A3FEA7D-6AE1-476F-9EBB-810660B50002}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A3FEA7D-6AE1-476F-9EBB-810660B50002}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87CCD3D6-08D7-4B15-86F1-F08D8975BF41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87CCD3D6-08D7-4B15-86F1-F08D8975BF41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87CCD3D6-08D7-4B15-86F1-F08D8975BF41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87CCD3D6-08D7-4B15-86F1-F08D8975BF41}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -46,6 +66,9 @@ Global
 		{479C8B91-4DF0-458A-90C8-E9A73E4EB507} = {6CD98247-8182-4AEA-92D5-D2EC9CF33DDE}
 		{2B9D6E1C-BCA4-40B5-878C-254AEAD39F8D} = {004D0284-4231-48F9-9C3D-F5818E150372}
 		{DB5EA9E0-2889-4BD4-82AB-90C04D375D20} = {004D0284-4231-48F9-9C3D-F5818E150372}
+		{831A814B-0A6C-414E-B4E9-D8032271E295} = {842389E7-DE2D-40CB-9FBE-8367B9E12155}
+		{1A3FEA7D-6AE1-476F-9EBB-810660B50002} = {842389E7-DE2D-40CB-9FBE-8367B9E12155}
+		{87CCD3D6-08D7-4B15-86F1-F08D8975BF41} = {842389E7-DE2D-40CB-9FBE-8367B9E12155}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {37A53255-655F-4886-AA68-6E367E2E2F0F}
