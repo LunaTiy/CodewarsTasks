@@ -29,9 +29,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BitCounting.Tests", "BitCou
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HumanReadableTime", "HumanReadableTime", "{600CA386-17BE-4AA8-9A1B-CF56EA0395E7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HumanReadableTime.Tests", "HumanReadableTime.Tests\HumanReadableTime.Tests.csproj", "{1095B382-B9E1-4C71-A555-4318260E41B2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HumanReadableTime.Tests", "HumanReadableTime.Tests\HumanReadableTime.Tests.csproj", "{1095B382-B9E1-4C71-A555-4318260E41B2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HumanReadableTime", "HumanReadableTime\HumanReadableTime.csproj", "{69094A8E-F27B-4754-A5CB-CDA9BD3B4B1E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HumanReadableTime", "HumanReadableTime\HumanReadableTime.csproj", "{69094A8E-F27B-4754-A5CB-CDA9BD3B4B1E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FirstNonRepeatingCharacter", "FirstNonRepeatingCharacter", "{59979551-7249-4370-A1BA-7E1E963062D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirstNonRepeatingCharacter.Tests", "FirstNonRepeatingCharacter.Tests\FirstNonRepeatingCharacter.Tests.csproj", "{0193B86B-0ADD-452C-B071-D4FBA1F4CDA0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirstNonRepeatingCharacter", "FirstNonRepeatingCharacter\FirstNonRepeatingCharacter.csproj", "{FF7889AA-5250-4F5C-9788-7E4CE726352C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{3776663B-2A78-4210-92D4-33F8ADA9874A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -79,6 +87,18 @@ Global
 		{69094A8E-F27B-4754-A5CB-CDA9BD3B4B1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{69094A8E-F27B-4754-A5CB-CDA9BD3B4B1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{69094A8E-F27B-4754-A5CB-CDA9BD3B4B1E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0193B86B-0ADD-452C-B071-D4FBA1F4CDA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0193B86B-0ADD-452C-B071-D4FBA1F4CDA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0193B86B-0ADD-452C-B071-D4FBA1F4CDA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0193B86B-0ADD-452C-B071-D4FBA1F4CDA0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF7889AA-5250-4F5C-9788-7E4CE726352C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF7889AA-5250-4F5C-9788-7E4CE726352C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF7889AA-5250-4F5C-9788-7E4CE726352C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF7889AA-5250-4F5C-9788-7E4CE726352C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3776663B-2A78-4210-92D4-33F8ADA9874A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3776663B-2A78-4210-92D4-33F8ADA9874A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3776663B-2A78-4210-92D4-33F8ADA9874A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3776663B-2A78-4210-92D4-33F8ADA9874A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -94,6 +114,9 @@ Global
 		{7026EDA5-F555-4A62-A3CF-8552A4115EBE} = {4F8A672D-C823-4C01-81E7-1AB2FDA03DCA}
 		{1095B382-B9E1-4C71-A555-4318260E41B2} = {600CA386-17BE-4AA8-9A1B-CF56EA0395E7}
 		{69094A8E-F27B-4754-A5CB-CDA9BD3B4B1E} = {600CA386-17BE-4AA8-9A1B-CF56EA0395E7}
+		{0193B86B-0ADD-452C-B071-D4FBA1F4CDA0} = {59979551-7249-4370-A1BA-7E1E963062D5}
+		{FF7889AA-5250-4F5C-9788-7E4CE726352C} = {59979551-7249-4370-A1BA-7E1E963062D5}
+		{3776663B-2A78-4210-92D4-33F8ADA9874A} = {59979551-7249-4370-A1BA-7E1E963062D5}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {37A53255-655F-4886-AA68-6E367E2E2F0F}
