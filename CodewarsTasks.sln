@@ -35,15 +35,21 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HumanReadableTime", "HumanR
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FirstNonRepeatingCharacter", "FirstNonRepeatingCharacter", "{59979551-7249-4370-A1BA-7E1E963062D5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirstNonRepeatingCharacter.Tests", "FirstNonRepeatingCharacter.Tests\FirstNonRepeatingCharacter.Tests.csproj", "{0193B86B-0ADD-452C-B071-D4FBA1F4CDA0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FirstNonRepeatingCharacter.Tests", "FirstNonRepeatingCharacter.Tests\FirstNonRepeatingCharacter.Tests.csproj", "{0193B86B-0ADD-452C-B071-D4FBA1F4CDA0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirstNonRepeatingCharacter", "FirstNonRepeatingCharacter\FirstNonRepeatingCharacter.csproj", "{FF7889AA-5250-4F5C-9788-7E4CE726352C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FirstNonRepeatingCharacter", "FirstNonRepeatingCharacter\FirstNonRepeatingCharacter.csproj", "{FF7889AA-5250-4F5C-9788-7E4CE726352C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SimplePigLatin", "SimplePigLatin", "{5F7293AE-DD36-4AF7-9FDA-8E8DB14AA061}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimplePigLatin", "SimplePigLatin\SimplePigLatin.csproj", "{50FB2D8E-360C-4AA8-AAEE-9C6FC2A0B7C5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimplePigLatin", "SimplePigLatin\SimplePigLatin.csproj", "{50FB2D8E-360C-4AA8-AAEE-9C6FC2A0B7C5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimplePigLatin.Tests", "SimplePigLatin.Tests\SimplePigLatin.Tests.csproj", "{4B7CA1B5-5C57-49E6-893A-CF3B3D79017E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimplePigLatin.Tests", "SimplePigLatin.Tests\SimplePigLatin.Tests.csproj", "{4B7CA1B5-5C57-49E6-893A-CF3B3D79017E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IsNumberPrime", "IsNumberPrime", "{4CCC4CF8-4265-4721-AF48-782668E44834}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IsNumberPrime", "IsNumberPrime\IsNumberPrime.csproj", "{46202D90-EFF6-417F-BF5F-7DD1974C074C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IsNumberPrime.Tests", "IsNumberPrime.Tests\IsNumberPrime.Tests.csproj", "{4EFA3565-926D-4DB4-95E0-08269FD7C7D8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -107,6 +113,14 @@ Global
 		{4B7CA1B5-5C57-49E6-893A-CF3B3D79017E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4B7CA1B5-5C57-49E6-893A-CF3B3D79017E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4B7CA1B5-5C57-49E6-893A-CF3B3D79017E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46202D90-EFF6-417F-BF5F-7DD1974C074C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46202D90-EFF6-417F-BF5F-7DD1974C074C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46202D90-EFF6-417F-BF5F-7DD1974C074C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46202D90-EFF6-417F-BF5F-7DD1974C074C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4EFA3565-926D-4DB4-95E0-08269FD7C7D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4EFA3565-926D-4DB4-95E0-08269FD7C7D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4EFA3565-926D-4DB4-95E0-08269FD7C7D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4EFA3565-926D-4DB4-95E0-08269FD7C7D8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -126,6 +140,8 @@ Global
 		{FF7889AA-5250-4F5C-9788-7E4CE726352C} = {59979551-7249-4370-A1BA-7E1E963062D5}
 		{50FB2D8E-360C-4AA8-AAEE-9C6FC2A0B7C5} = {5F7293AE-DD36-4AF7-9FDA-8E8DB14AA061}
 		{4B7CA1B5-5C57-49E6-893A-CF3B3D79017E} = {5F7293AE-DD36-4AF7-9FDA-8E8DB14AA061}
+		{46202D90-EFF6-417F-BF5F-7DD1974C074C} = {4CCC4CF8-4265-4721-AF48-782668E44834}
+		{4EFA3565-926D-4DB4-95E0-08269FD7C7D8} = {4CCC4CF8-4265-4721-AF48-782668E44834}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {37A53255-655F-4886-AA68-6E367E2E2F0F}
