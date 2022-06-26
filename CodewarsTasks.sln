@@ -105,11 +105,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DontGiveMeFive.Tests", "7 k
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MiddlePermutation", "MiddlePermutation", "{B58C5FDF-F184-479D-AA60-383B6AD37CEB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiddlePermutation", "4 kyu\MiddlePermutation\MiddlePermutation.csproj", "{DEE0812D-D8BB-438D-8F26-CCCEA7DD5BDD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MiddlePermutation", "4 kyu\MiddlePermutation\MiddlePermutation.csproj", "{DEE0812D-D8BB-438D-8F26-CCCEA7DD5BDD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiddlePermutation.Tests", "4 kyu\MiddlePermutation.Tests\MiddlePermutation.Tests.csproj", "{72AE79EF-C0E5-4C23-A5BA-C498014F6A1C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MiddlePermutation.Tests", "4 kyu\MiddlePermutation.Tests\MiddlePermutation.Tests.csproj", "{72AE79EF-C0E5-4C23-A5BA-C498014F6A1C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{49BF0FA9-31C2-4203-9E84-6ACE0843282D}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3  kyu", "3  kyu", "{A17CE01B-4C37-4332-BEAA-00DDA54A93DD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Binomial Expansion", "Binomial Expansion", "{D29FDD96-70B2-47A3-813C-02D7353EE6C5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BinomialExpansion.Tests", "3 kyu\BinomialExpansion.Tests\BinomialExpansion.Tests.csproj", "{5B5F0244-6F5F-4E78-A877-72A883379138}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BinomialExpansion", "3 kyu\BinomialExpansion\BinomialExpansion.csproj", "{F3FAE8DC-734D-4019-B4A6-B03A1C618D4D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -245,10 +251,14 @@ Global
 		{72AE79EF-C0E5-4C23-A5BA-C498014F6A1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{72AE79EF-C0E5-4C23-A5BA-C498014F6A1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{72AE79EF-C0E5-4C23-A5BA-C498014F6A1C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{49BF0FA9-31C2-4203-9E84-6ACE0843282D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{49BF0FA9-31C2-4203-9E84-6ACE0843282D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{49BF0FA9-31C2-4203-9E84-6ACE0843282D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{49BF0FA9-31C2-4203-9E84-6ACE0843282D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B5F0244-6F5F-4E78-A877-72A883379138}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B5F0244-6F5F-4E78-A877-72A883379138}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B5F0244-6F5F-4E78-A877-72A883379138}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B5F0244-6F5F-4E78-A877-72A883379138}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3FAE8DC-734D-4019-B4A6-B03A1C618D4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3FAE8DC-734D-4019-B4A6-B03A1C618D4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3FAE8DC-734D-4019-B4A6-B03A1C618D4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3FAE8DC-734D-4019-B4A6-B03A1C618D4D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -302,7 +312,9 @@ Global
 		{B58C5FDF-F184-479D-AA60-383B6AD37CEB} = {0215138F-103F-4C63-AA32-8496DD6DA6E8}
 		{DEE0812D-D8BB-438D-8F26-CCCEA7DD5BDD} = {B58C5FDF-F184-479D-AA60-383B6AD37CEB}
 		{72AE79EF-C0E5-4C23-A5BA-C498014F6A1C} = {B58C5FDF-F184-479D-AA60-383B6AD37CEB}
-		{49BF0FA9-31C2-4203-9E84-6ACE0843282D} = {B58C5FDF-F184-479D-AA60-383B6AD37CEB}
+		{D29FDD96-70B2-47A3-813C-02D7353EE6C5} = {A17CE01B-4C37-4332-BEAA-00DDA54A93DD}
+		{5B5F0244-6F5F-4E78-A877-72A883379138} = {D29FDD96-70B2-47A3-813C-02D7353EE6C5}
+		{F3FAE8DC-734D-4019-B4A6-B03A1C618D4D} = {D29FDD96-70B2-47A3-813C-02D7353EE6C5}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {37A53255-655F-4886-AA68-6E367E2E2F0F}
