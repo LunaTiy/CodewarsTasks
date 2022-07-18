@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31702.278
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DescendingOrder", "DescendingOrder", "{6CD98247-8182-4AEA-92D5-D2EC9CF33DDE}"
 EndProject
@@ -116,6 +116,8 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BinomialExpansion.Tests", "3 kyu\BinomialExpansion.Tests\BinomialExpansion.Tests.csproj", "{5B5F0244-6F5F-4E78-A877-72A883379138}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BinomialExpansion", "3 kyu\BinomialExpansion\BinomialExpansion.csproj", "{F3FAE8DC-734D-4019-B4A6-B03A1C618D4D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Collatz", "Collatz", "{6B5C57BE-6BF4-4CD1-AB2A-4D227D6B11B2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -315,6 +317,7 @@ Global
 		{D29FDD96-70B2-47A3-813C-02D7353EE6C5} = {A17CE01B-4C37-4332-BEAA-00DDA54A93DD}
 		{5B5F0244-6F5F-4E78-A877-72A883379138} = {D29FDD96-70B2-47A3-813C-02D7353EE6C5}
 		{F3FAE8DC-734D-4019-B4A6-B03A1C618D4D} = {D29FDD96-70B2-47A3-813C-02D7353EE6C5}
+		{6B5C57BE-6BF4-4CD1-AB2A-4D227D6B11B2} = {23E0B070-596F-4990-B711-86F321748DB7}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {37A53255-655F-4886-AA68-6E367E2E2F0F}
