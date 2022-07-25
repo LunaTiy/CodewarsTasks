@@ -137,9 +137,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SumOfDigitsDigitalRoot.Test
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TicTacToeChecker", "TicTacToeChecker", "{3B4271D8-AE3A-4D2F-B928-5FE3BD47BC41}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicTacToeChecker", "5 kyu\TicTacToeChecker\TicTacToeChecker.csproj", "{ED5AE4B5-2B4E-45CB-9735-18390FF18E74}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TicTacToeChecker", "5 kyu\TicTacToeChecker\TicTacToeChecker.csproj", "{ED5AE4B5-2B4E-45CB-9735-18390FF18E74}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicTacToeChecker.Tests", "5 kyu\TicTacToeChecker.Tests\TicTacToeChecker.Tests.csproj", "{7BEE7606-35FB-4DC2-8959-DA8FB47869F2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TicTacToeChecker.Tests", "5 kyu\TicTacToeChecker.Tests\TicTacToeChecker.Tests.csproj", "{7BEE7606-35FB-4DC2-8959-DA8FB47869F2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TotalIncreasingOrDecreasingNumbersUpToPowerOf10", "TotalIncreasingOrDecreasingNumbersUpToPowerOf10", "{13EA4ACE-F72A-4996-A7CC-BDEB47185A9A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TotalIncreasingOrDecreasingNumbersUpToPowerOf10", "4 kyu\TotalIncreasingOrDecreasingNumbersUpToPowerOf10\TotalIncreasingOrDecreasingNumbersUpToPowerOf10.csproj", "{5CEB4525-71C2-40DF-903A-3849864BF5FB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TotalIncreasingOrDecreasingNumbersUpToPowerOf10.Tests", "4 kyu\TotalIncreasingOrDecreasingNumbersUpToPowerOf10.Tests\TotalIncreasingOrDecreasingNumbersUpToPowerOf10.Tests.csproj", "{9A76064D-4D4C-4660-8367-99EF9290E5A6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -315,6 +321,14 @@ Global
 		{7BEE7606-35FB-4DC2-8959-DA8FB47869F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7BEE7606-35FB-4DC2-8959-DA8FB47869F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7BEE7606-35FB-4DC2-8959-DA8FB47869F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5CEB4525-71C2-40DF-903A-3849864BF5FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CEB4525-71C2-40DF-903A-3849864BF5FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CEB4525-71C2-40DF-903A-3849864BF5FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CEB4525-71C2-40DF-903A-3849864BF5FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A76064D-4D4C-4660-8367-99EF9290E5A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A76064D-4D4C-4660-8367-99EF9290E5A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A76064D-4D4C-4660-8367-99EF9290E5A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A76064D-4D4C-4660-8367-99EF9290E5A6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -383,6 +397,9 @@ Global
 		{3B4271D8-AE3A-4D2F-B928-5FE3BD47BC41} = {B0D74A6E-22C9-4D06-8B0D-12B86359E2C8}
 		{ED5AE4B5-2B4E-45CB-9735-18390FF18E74} = {3B4271D8-AE3A-4D2F-B928-5FE3BD47BC41}
 		{7BEE7606-35FB-4DC2-8959-DA8FB47869F2} = {3B4271D8-AE3A-4D2F-B928-5FE3BD47BC41}
+		{13EA4ACE-F72A-4996-A7CC-BDEB47185A9A} = {0215138F-103F-4C63-AA32-8496DD6DA6E8}
+		{5CEB4525-71C2-40DF-903A-3849864BF5FB} = {13EA4ACE-F72A-4996-A7CC-BDEB47185A9A}
+		{9A76064D-4D4C-4660-8367-99EF9290E5A6} = {13EA4ACE-F72A-4996-A7CC-BDEB47185A9A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {37A53255-655F-4886-AA68-6E367E2E2F0F}
